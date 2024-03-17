@@ -20,7 +20,7 @@ et plus modulaire, de part son découpage en plusieur DLL.
 Le Legacy est en effet découpé en plusieurs modules, tous indépendants les uns des autres,  
 mais tous, dépendant d'une DLL noyau, **LegacyLibraryCore**, et de la **Sfml**.
 
-### LegacyLibraryCore
+### LegacyCore
 
 Le noyaux du moteur, est constitué des elements fondamentaux. A savoir:
 
@@ -44,8 +44,33 @@ Le noyaux du moteur, est constitué des elements fondamentaux. A savoir:
     - Composant permettant a un GameObject de disposer d'un nom, d'un Tag principal, et de tout une liste de Tag.
 8. [**Renderer**](renderer.md)
     - Composant responsable de l'affichage d'un GameObject
-9. TimeTool
+9. [**Graphic Component**](graphicComponent.md)
+    - Composant visuel abstrait, rendu par le Renderer.
+    - Des class enfant concretes existent.
+10. [**Animator**](animator.md)
+    - Composant à la base du systeme d'animation.
+    - D'autres elements important constitue ce systeme.
+11. [**TimeTool**]()
     - Class statique disposant des outil de temps de la Sfml
-10. RessourceManager
+12. [**RessourceManager**]()
     - Composant responsable des ressources du jeu.
     - Fait parti d'un systeme complexe de chargement de ressource en multithread.
+
+### LegacyInput
+
+Dll contenant le systeme d'input.
+Il est prévu pour gérer les input clavier/souris ainsi que manette.  
+Mais sa conception est encore à ce jour sujet à reflexion
+
+1. [**Input Source**]()
+    - Class abstraite ayant le role de source d'input.
+    - 2 class enfant existent : **SfmlInputSource**, **GameXPadInput**
+    - La différence est dans le mapping des touches par defaut.
+2. [**gamepadx**]()
+    - La petite lib externe permettant d'avoir acces au input d'une manette type Xbox.  
+
+### LegacyUI
+
+Dll contenant le systeme d'UI.
+Pour l'heure cette dll n'existe pas, le systeme est encore en 
+développement dans un projet de test.

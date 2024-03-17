@@ -1,9 +1,9 @@
 # Credits
 
 ## Développeur
-- Az'valk `'-'`
+- Az'valk [`'-'`](https://github.com/Azvalk)
 
 ## Parrain
-- Sir Ugu  `><((,(°>`
+- Sir Ugu  [`><((,(°>`](https://github.com/UguSama)
 
 ## Version 0.1
