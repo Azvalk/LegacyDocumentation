@@ -1,0 +1,27 @@
+site_name: Legacy
+theme: readthedocs
+nav:
+  - Accueil: 'index.md'
+  - A propos: 'about.md'
+  - Guide:
+    - Description: 'description.md'
+    - Installation: 'installation.md'
+    - Utilisation: 'utilisation.md'
+  - Composite Pattern:
+    - Game Object: 'gameObject.md'
+    - Game Component: 'gameComponent.md'
+  - Scene System:
+    - Scene: 'scene.md'
+    - GameLoop: 'gameLoop.md'
+  - Render System:
+    - Renderer: 'renderer.md'
+    - Graphic Component: 'graphicComponent.md'
+    - Image: 'image.md'
+  - Animation System:
+    - Animator: 'animator.md'
+    - Animation Controller: 'animationController.md'
+    - Animation State: 'animationState.md'
+    - Animation: 'animation.md'
+  - Game Component:
+    - Identity: 'identity.md'
+    - Transform: 'transform.md'
