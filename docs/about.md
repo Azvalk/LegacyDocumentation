@@ -1,7 +1,7 @@
 # Credits
 
 ## Développeur
-- Abraxis `'-'`
+- Az'valk `'-'`
 
 ## Parrain
 - Sir Ugu  `><((,(°>`

@@ -117,7 +117,7 @@ Ces fonctions ne sont pas virtuelle pure, pous ne pas vous forcer à les impleme
 mais elles sont disponibles à l'override.
 
 * `OnAdd` est appelé lorsque le component est attaché a l'objet.
-Utile pour initialiser des choses grace en récuperant des informations dans les autres component deja présent dans l'objet.
+Utile pour initialiser des choses en récuperant des informations dans les autres component deja présent dans l'objet.
 * `OnEnable` est appelé quand le component devient actif.
 * `OnDisable` est appelé quand le component devient inactif.
 * `OnRemove` est appelé quand le component est retiré de l'objet.
